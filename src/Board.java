@@ -1,3 +1,5 @@
+
+
 public class Board 
 {
 	private Tile board[][];
@@ -14,13 +16,38 @@ public class Board
 				}
 			}
 	}
-	public Piece getResident() 
-	{
-		return resident;
-	}
-	public Piece setResident(Piece piece)
-	{
-		resident = piece;
-		return resident;
+	
+	public boolean valid_move(Tile current, Tile dest) {
+		
+		//Pawn move validity
+	    if(current.getResident().getType() == 0) {
+			
+		}
+	    
+	    //Pawn move validity
+	    else if(current.getResident().getType() == 1) {
+			
+		}
+
+	    //Pawn move validity
+	    else if(current.getResident().getType() == 2) {
+			
+		}
+
+	    //Pawn move validity
+	    else if(current.getResident().getType() == 3) {
+			
+		}
+	    
+	    //Pawn move validity
+	    else if(current.getResident().getType() == 4) {
+			
+		}
+
+	    //Pawn move validity
+	    else if(current.getResident().getType() == 5) {
+			
+		}
+
 	}
 }
