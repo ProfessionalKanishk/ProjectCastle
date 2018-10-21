@@ -1,3 +1,4 @@
+package src;
 
 
 public class Board 
@@ -27,7 +28,6 @@ public class Board
 					board[i][j] = null;
 			}
 	}
-<<<<<<< HEAD
 	
 	public boolean valid_move(Tile current, Tile dest) {
 		
@@ -60,8 +60,6 @@ public class Board
 	    else if(current.getResident().getType() == 5) {
 			
 		}
-
-=======
 	public Tile[][] getBoard()
 	{
 		return board;
@@ -69,6 +67,5 @@ public class Board
 	public int getLevel() 
 	{
 		return level;
->>>>>>> d949a3ae9a5c127ec7b6b4fc3463994e502a3346
 	}
 }

@@ -1,3 +1,4 @@
+package src;
 public class Piece
 {
 	public final static int PAWN = 0;
